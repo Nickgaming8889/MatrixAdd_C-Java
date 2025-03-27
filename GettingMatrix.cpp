@@ -12,7 +12,7 @@ int main(int argc, char const *argv[]) {
     int row, column;
     int val;
 
-    while (i <= 2) {
+    while (i < 2) {
 
         cout << "Insert the number of rows: ";
         cin >> row;
@@ -45,7 +45,7 @@ int main(int argc, char const *argv[]) {
 }
 
 void gettingArrays(int _size, vector<vector<int>> _arr) {
-    /*string f = "Matrix.txt";
+    string f = "Matrix.txt";
     //Opening file with fstream library
     fstream file;
     file.open(f);
@@ -63,5 +63,5 @@ void gettingArrays(int _size, vector<vector<int>> _arr) {
     }
     else {
         cerr << "Common trash" << endl;
-    }*/
+    }
 }
